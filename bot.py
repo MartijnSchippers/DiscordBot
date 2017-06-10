@@ -8,7 +8,7 @@ bot_prefix = '?'
 client = commands.Bot(description=description, command_prefix=bot_prefix)
 
 list_of_string = ['huub is stom', 'huub heeft voelsprieten', 'kafin heeft wel een mooie stem', 'stijn is beter dan huub']
-deleted_users = ['109743549582479360']
+deleted_users = ['']
 @client.event
 async def on_ready():
     print('Logged in')
@@ -40,4 +40,4 @@ async def on_message(message):
 	await client.process_commands(message)
 	
 
-client.run("MzIyMDUzNjU3Nzc0MjYwMjI4.DBnouw.fSCvQAPGNz6baFGu5d1qQb6d9Mg")
+client.run("")
